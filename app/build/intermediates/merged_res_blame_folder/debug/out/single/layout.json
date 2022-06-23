@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/device_info_layout.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/device_info_layout.xml"
+    },
+    {
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_paired.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/activity_paired.xml"
+    },
+    {
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/device_adapter_view.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/device_adapter_view.xml"
+    },
+    {
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/all_user_layout.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/all_user_layout.xml"
+    },
+    {
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_splash_screen.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_select_device.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/activity_select_device.xml"
+    }
+]

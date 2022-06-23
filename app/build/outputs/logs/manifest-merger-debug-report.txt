@@ -1,0 +1,252 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:2:1-47:12
+MERGED from [androidx.databinding:viewbinding:7.0.4] /Users/andrea/.gradle/caches/transforms-3/4b552d4aefad7425b4b145d5b89606ca/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] /Users/andrea/.gradle/caches/transforms-3/cabb4d2b4c5404197ffc75968509a6f4/transformed/jetified-lifecycle-viewmodel-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/andrea/.gradle/caches/transforms-3/aced48ed6f61bf87e5bd5bf13c676fb8/transformed/jetified-lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/andrea/.gradle/caches/transforms-3/764d6e0dec5816b7c208cec14c1cd8bb/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/andrea/.gradle/caches/transforms-3/54ac07bf75e39dd31f6801fd54558577/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/andrea/.gradle/caches/transforms-3/5f8530d55c271bcc40df3605e47dca7c/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/andrea/.gradle/caches/transforms-3/da51252a866c13a3e701fa6d2637bea3/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/andrea/.gradle/caches/transforms-3/2617489a6fdd1289679098b9bc3e4854/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/andrea/.gradle/caches/transforms-3/bdb3443fe3bc37caaa63b3d6d1c6dc41/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/andrea/.gradle/caches/transforms-3/8197de5f7f1644011240aaddd231640c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/andrea/.gradle/caches/transforms-3/8a69d7404fca7b3ad4af43b81183125f/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/andrea/.gradle/caches/transforms-3/68fa8eda558073508839e5dcf1a57e42/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/andrea/.gradle/caches/transforms-3/f436151895203b519c86120214176bb6/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/andrea/.gradle/caches/transforms-3/171db370b67749d2167c64b1406fbdb1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/andrea/.gradle/caches/transforms-3/1dfc48b056d3b2c8f24e7181e5b7c4e9/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/andrea/.gradle/caches/transforms-3/71a2fac905d9bcaaa7b683d80fa87aae/transformed/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /Users/andrea/.gradle/caches/transforms-3/8fb266a15d039612d53c352f0b84f4f1/transformed/activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/andrea/.gradle/caches/transforms-3/0b34f26ca383c07f1a5dfebaeb8b8af8/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/andrea/.gradle/caches/transforms-3/90e06e982bbe4ce50145f3838b556bf6/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/andrea/.gradle/caches/transforms-3/5fff742a6e14182aa92aca962347b54e/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/andrea/.gradle/caches/transforms-3/31598e012a5b07ef66d582f3f1beb700/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/andrea/.gradle/caches/transforms-3/d4c66104ff7ea96bf1500439b339bcde/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /Users/andrea/.gradle/caches/transforms-3/2ba75ebe98e6e4258dab128b2162a815/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/andrea/.gradle/caches/transforms-3/8d4e838e8f8890915c57328e48fd0609/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] /Users/andrea/.gradle/caches/transforms-3/8f46c53c6c7b2b783b0fdc377c27906c/transformed/lifecycle-viewmodel-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/andrea/.gradle/caches/transforms-3/8f40f419455e9063a5a0c87eb1395988/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/andrea/.gradle/caches/transforms-3/8f987a584d09f791ac45c3d21e611ac1/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/andrea/.gradle/caches/transforms-3/0f61c998f9be11b70090fe233b017e7a/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/andrea/.gradle/caches/transforms-3/d14e578033ce88b0165e23b8231588d4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/andrea/.gradle/caches/transforms-3/5aa0fec1a7dde5e254158de0aef0c40d/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] /Users/andrea/.gradle/caches/transforms-3/8d4554e981d2499e276af5c363f27e55/transformed/jetified-lifecycle-livedata-core-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] /Users/andrea/.gradle/caches/transforms-3/4979a05d36cff904ea7a26f57deac6dd/transformed/lifecycle-livedata-core-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/andrea/.gradle/caches/transforms-3/40e2f22be8e67a3883f700951563564b/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/andrea/.gradle/caches/transforms-3/85ac718de95b3e584cec1b7e6dff0443/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/andrea/.gradle/caches/transforms-3/eed154c5e96916ca4b75c18ee6570cbb/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/andrea/.gradle/caches/transforms-3/be8d8f263e15edc0b3a6c383dbcca621/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/andrea/.gradle/caches/transforms-3/8f2d06aefb0b2cded0b742cc0f2f8e0e/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/andrea/.gradle/caches/transforms-3/94f1735b1f5b0d5f8ad219979416a134/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/andrea/.gradle/caches/transforms-3/c88a34d49e3b388757fd2af703f7a063/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:2:1-47:12
+	package
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:4:5-55
+		INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:2:1-47:12
+		INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:2:1-47:12
+		INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.bluetooth
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:6:5-63
+	android:name
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:6:19-60
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:8:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:9:5-74
+	android:name
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:9:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:13:5-78
+	android:name
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.BLUETOOTH_PRIVILEGED
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:14:5-16:47
+	tools:ignore
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:16:9-44
+	android:name
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:15:9-63
+application
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:18:5-45:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/andrea/.gradle/caches/transforms-3/764d6e0dec5816b7c208cec14c1cd8bb/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/andrea/.gradle/caches/transforms-3/764d6e0dec5816b7c208cec14c1cd8bb/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/andrea/.gradle/caches/transforms-3/54ac07bf75e39dd31f6801fd54558577/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/andrea/.gradle/caches/transforms-3/54ac07bf75e39dd31f6801fd54558577/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.5.0] /Users/andrea/.gradle/caches/transforms-3/2ba75ebe98e6e4258dab128b2162a815/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/andrea/.gradle/caches/transforms-3/2ba75ebe98e6e4258dab128b2162a815/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/andrea/.gradle/caches/transforms-3/d14e578033ce88b0165e23b8231588d4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/andrea/.gradle/caches/transforms-3/d14e578033ce88b0165e23b8231588d4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /Users/andrea/.gradle/caches/transforms-3/2ba75ebe98e6e4258dab128b2162a815/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:20:9-43
+	android:allowBackup
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:23:9-40
+activity#com.example.user.bluetooth_communication.PairedActivity
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:24:9-26:40
+	android:exported
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:25:13-43
+activity#com.example.user.bluetooth_communication.LoginActivity
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:27:9-29:40
+	android:exported
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:28:13-42
+activity#com.example.user.bluetooth_communication.SelectDeviceActivity
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:30:9-32:40
+	android:exported
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:31:13-49
+activity#com.example.user.bluetooth_communication.SplashScreenActivity
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:33:9-41:20
+	android:exported
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:34:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:36:13-40:29
+action#android.intent.action.MAIN
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:39:27-74
+activity#com.example.user.bluetooth_communication.MainActivity
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:42:9-44:49
+	android:exported
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:43:13-41
+uses-sdk
+INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml
+INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.0.4] /Users/andrea/.gradle/caches/transforms-3/4b552d4aefad7425b4b145d5b89606ca/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.4] /Users/andrea/.gradle/caches/transforms-3/4b552d4aefad7425b4b145d5b89606ca/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] /Users/andrea/.gradle/caches/transforms-3/cabb4d2b4c5404197ffc75968509a6f4/transformed/jetified-lifecycle-viewmodel-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] /Users/andrea/.gradle/caches/transforms-3/cabb4d2b4c5404197ffc75968509a6f4/transformed/jetified-lifecycle-viewmodel-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/andrea/.gradle/caches/transforms-3/aced48ed6f61bf87e5bd5bf13c676fb8/transformed/jetified-lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/andrea/.gradle/caches/transforms-3/aced48ed6f61bf87e5bd5bf13c676fb8/transformed/jetified-lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] /Users/andrea/.gradle/caches/transforms-3/764d6e0dec5816b7c208cec14c1cd8bb/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/andrea/.gradle/caches/transforms-3/764d6e0dec5816b7c208cec14c1cd8bb/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/andrea/.gradle/caches/transforms-3/54ac07bf75e39dd31f6801fd54558577/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/andrea/.gradle/caches/transforms-3/54ac07bf75e39dd31f6801fd54558577/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/andrea/.gradle/caches/transforms-3/5f8530d55c271bcc40df3605e47dca7c/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/andrea/.gradle/caches/transforms-3/5f8530d55c271bcc40df3605e47dca7c/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/andrea/.gradle/caches/transforms-3/da51252a866c13a3e701fa6d2637bea3/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/andrea/.gradle/caches/transforms-3/da51252a866c13a3e701fa6d2637bea3/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/andrea/.gradle/caches/transforms-3/2617489a6fdd1289679098b9bc3e4854/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/andrea/.gradle/caches/transforms-3/2617489a6fdd1289679098b9bc3e4854/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/andrea/.gradle/caches/transforms-3/bdb3443fe3bc37caaa63b3d6d1c6dc41/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/andrea/.gradle/caches/transforms-3/bdb3443fe3bc37caaa63b3d6d1c6dc41/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/andrea/.gradle/caches/transforms-3/8197de5f7f1644011240aaddd231640c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/andrea/.gradle/caches/transforms-3/8197de5f7f1644011240aaddd231640c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/andrea/.gradle/caches/transforms-3/8a69d7404fca7b3ad4af43b81183125f/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/andrea/.gradle/caches/transforms-3/8a69d7404fca7b3ad4af43b81183125f/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/andrea/.gradle/caches/transforms-3/68fa8eda558073508839e5dcf1a57e42/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/andrea/.gradle/caches/transforms-3/68fa8eda558073508839e5dcf1a57e42/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/andrea/.gradle/caches/transforms-3/f436151895203b519c86120214176bb6/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/andrea/.gradle/caches/transforms-3/f436151895203b519c86120214176bb6/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/andrea/.gradle/caches/transforms-3/171db370b67749d2167c64b1406fbdb1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/andrea/.gradle/caches/transforms-3/171db370b67749d2167c64b1406fbdb1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/andrea/.gradle/caches/transforms-3/1dfc48b056d3b2c8f24e7181e5b7c4e9/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/andrea/.gradle/caches/transforms-3/1dfc48b056d3b2c8f24e7181e5b7c4e9/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/andrea/.gradle/caches/transforms-3/71a2fac905d9bcaaa7b683d80fa87aae/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/andrea/.gradle/caches/transforms-3/71a2fac905d9bcaaa7b683d80fa87aae/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/andrea/.gradle/caches/transforms-3/8fb266a15d039612d53c352f0b84f4f1/transformed/activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/andrea/.gradle/caches/transforms-3/8fb266a15d039612d53c352f0b84f4f1/transformed/activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/andrea/.gradle/caches/transforms-3/0b34f26ca383c07f1a5dfebaeb8b8af8/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/andrea/.gradle/caches/transforms-3/0b34f26ca383c07f1a5dfebaeb8b8af8/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/andrea/.gradle/caches/transforms-3/90e06e982bbe4ce50145f3838b556bf6/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/andrea/.gradle/caches/transforms-3/90e06e982bbe4ce50145f3838b556bf6/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/andrea/.gradle/caches/transforms-3/5fff742a6e14182aa92aca962347b54e/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/andrea/.gradle/caches/transforms-3/5fff742a6e14182aa92aca962347b54e/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/andrea/.gradle/caches/transforms-3/31598e012a5b07ef66d582f3f1beb700/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/andrea/.gradle/caches/transforms-3/31598e012a5b07ef66d582f3f1beb700/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/andrea/.gradle/caches/transforms-3/d4c66104ff7ea96bf1500439b339bcde/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/andrea/.gradle/caches/transforms-3/d4c66104ff7ea96bf1500439b339bcde/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /Users/andrea/.gradle/caches/transforms-3/2ba75ebe98e6e4258dab128b2162a815/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/andrea/.gradle/caches/transforms-3/2ba75ebe98e6e4258dab128b2162a815/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/andrea/.gradle/caches/transforms-3/8d4e838e8f8890915c57328e48fd0609/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/andrea/.gradle/caches/transforms-3/8d4e838e8f8890915c57328e48fd0609/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] /Users/andrea/.gradle/caches/transforms-3/8f46c53c6c7b2b783b0fdc377c27906c/transformed/lifecycle-viewmodel-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] /Users/andrea/.gradle/caches/transforms-3/8f46c53c6c7b2b783b0fdc377c27906c/transformed/lifecycle-viewmodel-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/andrea/.gradle/caches/transforms-3/8f40f419455e9063a5a0c87eb1395988/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/andrea/.gradle/caches/transforms-3/8f40f419455e9063a5a0c87eb1395988/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/andrea/.gradle/caches/transforms-3/8f987a584d09f791ac45c3d21e611ac1/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/andrea/.gradle/caches/transforms-3/8f987a584d09f791ac45c3d21e611ac1/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/andrea/.gradle/caches/transforms-3/0f61c998f9be11b70090fe233b017e7a/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/andrea/.gradle/caches/transforms-3/0f61c998f9be11b70090fe233b017e7a/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/andrea/.gradle/caches/transforms-3/d14e578033ce88b0165e23b8231588d4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/andrea/.gradle/caches/transforms-3/d14e578033ce88b0165e23b8231588d4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/andrea/.gradle/caches/transforms-3/5aa0fec1a7dde5e254158de0aef0c40d/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/andrea/.gradle/caches/transforms-3/5aa0fec1a7dde5e254158de0aef0c40d/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] /Users/andrea/.gradle/caches/transforms-3/8d4554e981d2499e276af5c363f27e55/transformed/jetified-lifecycle-livedata-core-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] /Users/andrea/.gradle/caches/transforms-3/8d4554e981d2499e276af5c363f27e55/transformed/jetified-lifecycle-livedata-core-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] /Users/andrea/.gradle/caches/transforms-3/4979a05d36cff904ea7a26f57deac6dd/transformed/lifecycle-livedata-core-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] /Users/andrea/.gradle/caches/transforms-3/4979a05d36cff904ea7a26f57deac6dd/transformed/lifecycle-livedata-core-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/andrea/.gradle/caches/transforms-3/40e2f22be8e67a3883f700951563564b/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/andrea/.gradle/caches/transforms-3/40e2f22be8e67a3883f700951563564b/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/andrea/.gradle/caches/transforms-3/85ac718de95b3e584cec1b7e6dff0443/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/andrea/.gradle/caches/transforms-3/85ac718de95b3e584cec1b7e6dff0443/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/andrea/.gradle/caches/transforms-3/eed154c5e96916ca4b75c18ee6570cbb/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/andrea/.gradle/caches/transforms-3/eed154c5e96916ca4b75c18ee6570cbb/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/andrea/.gradle/caches/transforms-3/be8d8f263e15edc0b3a6c383dbcca621/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/andrea/.gradle/caches/transforms-3/be8d8f263e15edc0b3a6c383dbcca621/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/andrea/.gradle/caches/transforms-3/8f2d06aefb0b2cded0b742cc0f2f8e0e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/andrea/.gradle/caches/transforms-3/8f2d06aefb0b2cded0b742cc0f2f8e0e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/andrea/.gradle/caches/transforms-3/94f1735b1f5b0d5f8ad219979416a134/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/andrea/.gradle/caches/transforms-3/94f1735b1f5b0d5f8ad219979416a134/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/andrea/.gradle/caches/transforms-3/c88a34d49e3b388757fd2af703f7a063/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/andrea/.gradle/caches/transforms-3/c88a34d49e3b388757fd2af703f7a063/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml
+INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml

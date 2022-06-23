@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bg.xml" value="0.213" />
+        <entry key="app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.213" />
+        <entry key="app/src/main/res/layout-w936dp/activity_select_device.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_aactivity.xml" value="0.15534420289855072" />
+        <entry key="app/src/main/res/layout/activity_control.xml" value="0.15534420289855072" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_paired.xml" value="0.1933876811594203" />
+        <entry key="app/src/main/res/layout/activity_select_device.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.15534420289855072" />
+        <entry key="app/src/main/res/layout/all_user_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/device_adapter_view.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/device_info_layout.xml" value="0.15070921985815602" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
