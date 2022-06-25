@@ -10,7 +10,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ulock"
+        android:text="uLock"
         android:textSize="40sp"
         android:textColor="#298DCC"
         android:layout_centerInParent="true"

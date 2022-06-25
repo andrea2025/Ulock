@@ -131,7 +131,7 @@ public class SelectDeviceActivity extends AppCompatActivity {
                     new DeviceListAdapter.OnItemClickListener() {
                         @Override
                         public void onItemClick(DeviceInfoModel deviceInfoModel) {
-                            Intent intent = new Intent(getApplicationContext(), PairedActivity.class);
+                            Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                             // Send device details to the MainActivity
                             intent.putExtra("deviceName", deviceInfoModel.getDeviceName());
                             intent.putExtra("deviceAddress", deviceInfoModel.getDeviceHardwareAddress());
@@ -231,7 +231,7 @@ public class SelectDeviceActivity extends AppCompatActivity {
                         Log.d(TAG, "onItemClick: deviceName = " + deviceName);
                         Log.d(TAG, "onItemClick: deviceAddress = " + deviceAddress);
                         item.createBond();
-                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                        Intent intent = new Intent(getApplicationContext(),HomeActivity.class);
                         startActivity(intent);
 
                     }

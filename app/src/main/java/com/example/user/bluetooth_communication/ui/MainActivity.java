@@ -373,7 +373,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                     Log.i("id",idOnDevice);
                                     bytes = idOnDevice.getBytes();
                                     mBluetoothConnection.write(bytes);
-                                    mUserAdapter.removeItem(item);
+                                  //  mUserAdapter.removeItem(item);
                                     deleteUser(accessToken,item.getIdOnDevice());
                                 }
                             });

@@ -4,10 +4,10 @@ package com.example.user.bluetooth_communication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.user.bluetooth_communication.R;
@@ -17,19 +17,24 @@ import java.lang.String;
 
 public final class AllUserLayoutBinding implements ViewBinding {
   @NonNull
-  private final CardView rootView;
+  private final LinearLayout rootView;
+
+  @NonNull
+  public final View divider;
 
   @NonNull
   public final TextView tvDeviceName;
 
-  private AllUserLayoutBinding(@NonNull CardView rootView, @NonNull TextView tvDeviceName) {
+  private AllUserLayoutBinding(@NonNull LinearLayout rootView, @NonNull View divider,
+      @NonNull TextView tvDeviceName) {
     this.rootView = rootView;
+    this.divider = divider;
     this.tvDeviceName = tvDeviceName;
   }
 
   @Override
   @NonNull
-  public CardView getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -54,13 +59,19 @@ public final class AllUserLayoutBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.divider;
+      View divider = ViewBindings.findChildViewById(rootView, id);
+      if (divider == null) {
+        break missingId;
+      }
+
       id = R.id.tvDeviceName;
       TextView tvDeviceName = ViewBindings.findChildViewById(rootView, id);
       if (tvDeviceName == null) {
         break missingId;
       }
 
-      return new AllUserLayoutBinding((CardView) rootView, tvDeviceName);
+      return new AllUserLayoutBinding((LinearLayout) rootView, divider, tvDeviceName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

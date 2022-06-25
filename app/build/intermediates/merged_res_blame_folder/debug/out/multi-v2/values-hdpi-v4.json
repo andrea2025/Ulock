@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "/Users/ademolababatunde/Ulock/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/andrea/.gradle/caches/transforms-3/5f8530d55c271bcc40df3605e47dca7c/transformed/appcompat-1.3.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/ademolababatunde/.gradle/caches/transforms-3/5f8530d55c271bcc40df3605e47dca7c/transformed/appcompat-1.3.0/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

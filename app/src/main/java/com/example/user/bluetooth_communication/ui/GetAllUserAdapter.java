@@ -1,5 +1,6 @@
 package com.example.user.bluetooth_communication.ui;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +13,7 @@ import com.example.user.bluetooth_communication.R;
 
 import com.example.user.bluetooth_communication.remote.Model.Response.UserInfo;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class GetAllUserAdapter extends RecyclerView.Adapter<GetAllUserAdapter.ViewHolder> {
@@ -55,7 +57,7 @@ public class GetAllUserAdapter extends RecyclerView.Adapter<GetAllUserAdapter.Vi
         }
 
         public void bind(final UserInfo item, final OnItemClickListener listener) {
-            mName.setText(item.getFirstName() + item.getLastName());
+            mName.setText(item.getFirstName() +" "+ item.getLastName());
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -66,11 +68,17 @@ public class GetAllUserAdapter extends RecyclerView.Adapter<GetAllUserAdapter.Vi
 
     }
 
-    public void removeItem(UserInfo item){
-        int position = mData.indexOf(item);
-        mData.remove(item);
-        notifyItemRemoved(position);
-        notifyItemRangeChanged(position, mData.size());
+    public void removeItem(String id){
+        UserInfo[] arr = mData.toArray(new UserInfo[mData.size()]);
+        Log.i("arr", String.valueOf(arr));
+        for (int i = 0; i < mData.size(); i++) {
+            Log.i("jjjj",arr[i].getIdOnDevice());
+            if (arr[i].getIdOnDevice().equals(id)) {
+                mData.remove(arr[i]);
+                notifyItemRemoved(i);
+                notifyItemRangeChanged(i, mData.size());
+            }
+        }
 
     }
 

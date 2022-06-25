@@ -104,7 +104,7 @@ public class PairedActivity extends AppCompatActivity implements View.OnClickLis
                 String btnAdd = "SYNC_?";
                 bytes = btnAdd.getBytes();
                 connectedThread.write(bytes);
-                mGetUser(accessToken);
+               // mGetUser(accessToken);
             }
         });
 
@@ -193,17 +193,14 @@ public class PairedActivity extends AppCompatActivity implements View.OnClickLis
                                     break;
                                 case "SYNC_YES":
                                     Log.i("user", arduinoMsg);
-                                    if (id.length() == 0) {
-                                        Log.i(TAG, "no id found");
-                                    } else {
-                                        byte[] bytes;
-                                        String sendIdOnDevice = id;
-                                        bytes = sendIdOnDevice.getBytes();
-                                        connectedThread.write(bytes);
-                                    }
-                                    Toast.makeText(getApplicationContext(), "User sync" + id, Toast.LENGTH_SHORT).show();
+                                    mGetUser(accessToken);
+                                    Toast.makeText(getApplicationContext(), "User sync", Toast.LENGTH_SHORT).show();
                                     break;
+                                case "DELETE":
+                                    mUserAdapter.removeItem(parts[1]);
+                                    deleteUser(accessToken,parts[1]);
                             }
+
                         } catch (Exception e) {
                             Log.i("jjj", e.getLocalizedMessage());
                         }
@@ -224,6 +221,14 @@ public class PairedActivity extends AppCompatActivity implements View.OnClickLis
                     GetAllUser resp = response.body();
                     String id = response.body().getData().getIdDevice();
                     Log.i(TAG, id);
+                    if (id.isEmpty()) {
+                        Log.i(TAG, "no id found");
+                    } else {
+                        byte[] bytes;
+                        String sendIdOnDevice = id;
+                        bytes = sendIdOnDevice.getBytes();
+                        connectedThread.write(bytes);
+                    }
 
                     Log.i("success", "onResponse: " + resp);
                     //Log.i("success", user);
@@ -267,8 +272,6 @@ public class PairedActivity extends AppCompatActivity implements View.OnClickLis
                             Log.i("id",idOnDevice);
                             bytes = idOnDevice.getBytes();
                             connectedThread.write(bytes);
-                            mUserAdapter.removeItem(item);
-                            deleteUser(accessToken, item.getIdOnDevice());
 
                         }
                     });

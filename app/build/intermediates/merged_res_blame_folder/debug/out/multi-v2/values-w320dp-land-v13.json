@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "outputFile": "/Users/ademolababatunde/Ulock/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/andrea/.gradle/caches/transforms-3/764d6e0dec5816b7c208cec14c1cd8bb/transformed/material-1.4.0/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+                    "source": "/Users/ademolababatunde/.gradle/caches/transforms-3/764d6e0dec5816b7c208cec14c1cd8bb/transformed/material-1.4.0/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
