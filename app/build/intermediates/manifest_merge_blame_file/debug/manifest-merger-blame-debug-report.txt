@@ -49,50 +49,49 @@
 26-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:21:9-41
 27        android:supportsRtl="true"
 27-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:22:9-35
-28        android:testOnly="true"
-29        android:theme="@style/AppTheme" >
-29-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:23:9-40
-30        <activity
-30-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:24:9-26:40
-31            android:name="com.example.user.bluetooth_communication.PairedActivity"
-31-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:25:13-43
-32            android:exported="false" />
-32-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:26:13-37
-33        <activity
-33-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:27:9-29:40
-34            android:name="com.example.user.bluetooth_communication.LoginActivity"
-34-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:28:13-42
-35            android:exported="false" />
-35-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:29:13-37
-36        <activity
-36-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:30:9-32:40
-37            android:name="com.example.user.bluetooth_communication.SelectDeviceActivity"
-37-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:31:13-49
-38            android:exported="false" />
-38-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:32:13-37
-39        <activity
-39-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:33:9-41:20
-40            android:name="com.example.user.bluetooth_communication.SplashScreenActivity"
-40-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:34:13-49
-41            android:exported="true" >
-41-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:35:13-36
-42            <intent-filter>
-42-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:36:13-40:29
-43                <action android:name="android.intent.action.MAIN" />
-43-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:37:17-69
-43-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:37:25-66
-44
-45                <category android:name="android.intent.category.LAUNCHER" />
-45-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:39:17-77
-45-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:39:27-74
-46            </intent-filter>
-47        </activity>
-48        <activity
-48-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:42:9-44:49
-49            android:name="com.example.user.bluetooth_communication.MainActivity"
-49-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:43:13-41
-50            android:exported="false" />
-50-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:44:13-37
-51    </application>
-52
-53</manifest>
+28        android:theme="@style/AppTheme" >
+28-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:23:9-40
+29        <activity
+29-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:24:9-26:40
+30            android:name="com.example.user.bluetooth_communication.ui.PairedActivity"
+30-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:25:13-46
+31            android:exported="false" />
+31-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:26:13-37
+32        <activity
+32-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:27:9-29:40
+33            android:name="com.example.user.bluetooth_communication.ui.LoginActivity"
+33-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:28:13-45
+34            android:exported="false" />
+34-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:29:13-37
+35        <activity
+35-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:30:9-32:40
+36            android:name="com.example.user.bluetooth_communication.ui.SelectDeviceActivity"
+36-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:31:13-52
+37            android:exported="false" />
+37-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:32:13-37
+38        <activity
+38-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:33:9-41:20
+39            android:name="com.example.user.bluetooth_communication.ui.SplashScreenActivity"
+39-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:34:13-52
+40            android:exported="true" >
+40-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:35:13-36
+41            <intent-filter>
+41-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:36:13-40:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:37:17-69
+42-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:37:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:39:17-77
+44-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:39:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:42:9-44:39
+48            android:name="com.example.user.bluetooth_communication.ui.MainActivity"
+48-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:43:13-44
+49            android:exported="false" />
+49-->/Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:44:13-37
+50    </application>
+51
+52</manifest>

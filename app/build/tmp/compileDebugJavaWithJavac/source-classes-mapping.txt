@@ -2,16 +2,41 @@ com/example/user/bluetooth_communication/databinding/ActivityPairedBinding.java
  com.example.user.bluetooth_communication.databinding.ActivityPairedBinding
 com/example/user/bluetooth_communication/databinding/DeviceAdapterViewBinding.java
  com.example.user.bluetooth_communication.databinding.DeviceAdapterViewBinding
-com/example/user/bluetooth_communication/Constants.java
- com.example.user.bluetooth_communication.Constants
+com/example/user/bluetooth_communication/ui/NewAdapter.java
+ com.example.user.bluetooth_communication.ui.NewAdapter
+ com.example.user.bluetooth_communication.ui.NewAdapter$OnItemClickListener
+ com.example.user.bluetooth_communication.ui.NewAdapter$ViewHolder
+ com.example.user.bluetooth_communication.ui.NewAdapter$ViewHolder$1
 com/example/user/bluetooth_communication/remote/Model/Response/LoginResponse.java
  com.example.user.bluetooth_communication.remote.Model.Response.LoginResponse
 com/example/user/bluetooth_communication/remote/Model/Response/UserInfo.java
  com.example.user.bluetooth_communication.remote.Model.Response.UserInfo
+com/example/user/bluetooth_communication/ui/SelectDeviceActivity.java
+ com.example.user.bluetooth_communication.ui.SelectDeviceActivity
+ com.example.user.bluetooth_communication.ui.SelectDeviceActivity$1
+ com.example.user.bluetooth_communication.ui.SelectDeviceActivity$2
+ com.example.user.bluetooth_communication.ui.SelectDeviceActivity$3
+ com.example.user.bluetooth_communication.ui.SelectDeviceActivity$4
+ com.example.user.bluetooth_communication.ui.SelectDeviceActivity$5
+ com.example.user.bluetooth_communication.ui.SelectDeviceActivity$6
+ com.example.user.bluetooth_communication.ui.SelectDeviceActivity$6$1
+ com.example.user.bluetooth_communication.ui.SelectDeviceActivity$7
+com/example/user/bluetooth_communication/ui/SplashScreenActivity.java
+ com.example.user.bluetooth_communication.ui.SplashScreenActivity
+ com.example.user.bluetooth_communication.ui.SplashScreenActivity$1
 com/example/user/bluetooth_communication/remote/AppUtils.java
  com.example.user.bluetooth_communication.remote.AppUtils
-com/example/user/bluetooth_communication/databinding/ActivitySplashScreenBinding.java
- com.example.user.bluetooth_communication.databinding.ActivitySplashScreenBinding
+com/example/user/bluetooth_communication/ui/MainActivity.java
+ com.example.user.bluetooth_communication.ui.MainActivity
+ com.example.user.bluetooth_communication.ui.MainActivity$1
+ com.example.user.bluetooth_communication.ui.MainActivity$2
+ com.example.user.bluetooth_communication.ui.MainActivity$3
+ com.example.user.bluetooth_communication.ui.MainActivity$4
+ com.example.user.bluetooth_communication.ui.MainActivity$5
+ com.example.user.bluetooth_communication.ui.MainActivity$6
+ com.example.user.bluetooth_communication.ui.MainActivity$6$1
+ com.example.user.bluetooth_communication.ui.MainActivity$7
+ com.example.user.bluetooth_communication.ui.MainActivity$8
 com/example/user/bluetooth_communication/remote/Model/Response/IdDevice.java
  com.example.user.bluetooth_communication.remote.Model.Response.IdDevice
 com/example/user/bluetooth_communication/remote/Model/Response/AddUserRes.java
@@ -20,6 +45,11 @@ com/example/user/bluetooth_communication/databinding/ActivityMainBinding.java
  com.example.user.bluetooth_communication.databinding.ActivityMainBinding
 com/example/user/bluetooth_communication/remote/Model/Response/GetAllUser.java
  com.example.user.bluetooth_communication.remote.Model.Response.GetAllUser
+com/example/user/bluetooth_communication/ui/Utils/BluetoothConnectionService.java
+ com.example.user.bluetooth_communication.ui.Utils.BluetoothConnectionService
+ com.example.user.bluetooth_communication.ui.Utils.BluetoothConnectionService$AcceptThread
+ com.example.user.bluetooth_communication.ui.Utils.BluetoothConnectionService$ConnectThread
+ com.example.user.bluetooth_communication.ui.Utils.BluetoothConnectionService$ConnectedThread
 com/example/user/bluetooth_communication/databinding/DeviceInfoLayoutBinding.java
  com.example.user.bluetooth_communication.databinding.DeviceInfoLayoutBinding
 com/example/user/bluetooth_communication/remote/SharedPref.java
@@ -30,87 +60,53 @@ com/example/user/bluetooth_communication/BuildConfig.java
  com.example.user.bluetooth_communication.BuildConfig
 com/example/user/bluetooth_communication/remote/Model/Response/UserLogin.java
  com.example.user.bluetooth_communication.remote.Model.Response.UserLogin
+com/example/user/bluetooth_communication/ui/DeviceInfoModel.java
+ com.example.user.bluetooth_communication.ui.DeviceInfoModel
 com/example/user/bluetooth_communication/remote/Model/Request/LoginRequest.java
  com.example.user.bluetooth_communication.remote.Model.Request.LoginRequest
  com.example.user.bluetooth_communication.remote.Model.Request.LoginRequest$Request
-com/example/user/bluetooth_communication/remote/NetworkConnectionInterceptor.java
- com.example.user.bluetooth_communication.remote.NetworkConnectionInterceptor
- com.example.user.bluetooth_communication.remote.NetworkConnectionInterceptor$NoConnectivityException
-com/example/user/bluetooth_communication/getUserClass.java
- com.example.user.bluetooth_communication.getUserClass
 com/example/user/bluetooth_communication/databinding/ActivityLoginBinding.java
  com.example.user.bluetooth_communication.databinding.ActivityLoginBinding
-com/example/user/bluetooth_communication/BluetoothConnectionService.java
- com.example.user.bluetooth_communication.BluetoothConnectionService
- com.example.user.bluetooth_communication.BluetoothConnectionService$AcceptThread
- com.example.user.bluetooth_communication.BluetoothConnectionService$ConnectThread
- com.example.user.bluetooth_communication.BluetoothConnectionService$ConnectedThread
 com/example/user/bluetooth_communication/remote/UserService.java
  com.example.user.bluetooth_communication.remote.UserService
-com/example/user/bluetooth_communication/DeviceInfoModel.java
- com.example.user.bluetooth_communication.DeviceInfoModel
 com/example/user/bluetooth_communication/databinding/ActivitySelectDeviceBinding.java
  com.example.user.bluetooth_communication.databinding.ActivitySelectDeviceBinding
+com/example/user/bluetooth_communication/ui/DeviceListAdapter.java
+ com.example.user.bluetooth_communication.ui.DeviceListAdapter
+ com.example.user.bluetooth_communication.ui.DeviceListAdapter$OnItemClickListener
+ com.example.user.bluetooth_communication.ui.DeviceListAdapter$ViewHolder
+ com.example.user.bluetooth_communication.ui.DeviceListAdapter$ViewHolder$1
 com/example/user/bluetooth_communication/remote/Model/Request/AdduserReq.java
  com.example.user.bluetooth_communication.remote.Model.Request.AdduserReq
  com.example.user.bluetooth_communication.remote.Model.Request.AdduserReq$Request
-com/example/user/bluetooth_communication/SplashScreenActivity.java
- com.example.user.bluetooth_communication.SplashScreenActivity
- com.example.user.bluetooth_communication.SplashScreenActivity$1
 com/example/user/bluetooth_communication/remote/RetrofitBuilder.java
  com.example.user.bluetooth_communication.remote.RetrofitBuilder
 com/example/user/bluetooth_communication/remote/Model/Response/mData.java
  com.example.user.bluetooth_communication.remote.Model.Response.mData
-com/example/user/bluetooth_communication/NewAdapter.java
- com.example.user.bluetooth_communication.NewAdapter
- com.example.user.bluetooth_communication.NewAdapter$OnItemClickListener
- com.example.user.bluetooth_communication.NewAdapter$ViewHolder
- com.example.user.bluetooth_communication.NewAdapter$ViewHolder$1
-com/example/user/bluetooth_communication/GetAllUserAdapter.java
- com.example.user.bluetooth_communication.GetAllUserAdapter
- com.example.user.bluetooth_communication.GetAllUserAdapter$OnItemClickListener
- com.example.user.bluetooth_communication.GetAllUserAdapter$ViewHolder
- com.example.user.bluetooth_communication.GetAllUserAdapter$ViewHolder$1
-com/example/user/bluetooth_communication/DeviceListAdapter.java
- com.example.user.bluetooth_communication.DeviceListAdapter
- com.example.user.bluetooth_communication.DeviceListAdapter$OnItemClickListener
- com.example.user.bluetooth_communication.DeviceListAdapter$ViewHolder
- com.example.user.bluetooth_communication.DeviceListAdapter$ViewHolder$1
-com/example/user/bluetooth_communication/LoginActivity.java
- com.example.user.bluetooth_communication.LoginActivity
- com.example.user.bluetooth_communication.LoginActivity$1
-com/example/user/bluetooth_communication/MainActivity.java
- com.example.user.bluetooth_communication.MainActivity
- com.example.user.bluetooth_communication.MainActivity$1
- com.example.user.bluetooth_communication.MainActivity$2
- com.example.user.bluetooth_communication.MainActivity$3
- com.example.user.bluetooth_communication.MainActivity$4
- com.example.user.bluetooth_communication.MainActivity$5
- com.example.user.bluetooth_communication.MainActivity$6
- com.example.user.bluetooth_communication.MainActivity$6$1
- com.example.user.bluetooth_communication.MainActivity$7
- com.example.user.bluetooth_communication.MainActivity$8
-com/example/user/bluetooth_communication/PairedActivity.java
- com.example.user.bluetooth_communication.PairedActivity
- com.example.user.bluetooth_communication.PairedActivity$1
- com.example.user.bluetooth_communication.PairedActivity$2
- com.example.user.bluetooth_communication.PairedActivity$3
- com.example.user.bluetooth_communication.PairedActivity$4
- com.example.user.bluetooth_communication.PairedActivity$5
- com.example.user.bluetooth_communication.PairedActivity$5$1
- com.example.user.bluetooth_communication.PairedActivity$6
- com.example.user.bluetooth_communication.PairedActivity$7
- com.example.user.bluetooth_communication.PairedActivity$ConnectedThread
- com.example.user.bluetooth_communication.PairedActivity$CreateConnectThread
-com/example/user/bluetooth_communication/remote/SessionManager.java
- com.example.user.bluetooth_communication.remote.SessionManager
-com/example/user/bluetooth_communication/SelectDeviceActivity.java
- com.example.user.bluetooth_communication.SelectDeviceActivity
- com.example.user.bluetooth_communication.SelectDeviceActivity$1
- com.example.user.bluetooth_communication.SelectDeviceActivity$2
- com.example.user.bluetooth_communication.SelectDeviceActivity$3
- com.example.user.bluetooth_communication.SelectDeviceActivity$4
- com.example.user.bluetooth_communication.SelectDeviceActivity$5
- com.example.user.bluetooth_communication.SelectDeviceActivity$6
- com.example.user.bluetooth_communication.SelectDeviceActivity$6$1
- com.example.user.bluetooth_communication.SelectDeviceActivity$7
+com/example/user/bluetooth_communication/ui/Utils/Constants.java
+ com.example.user.bluetooth_communication.ui.Utils.Constants
+com/example/user/bluetooth_communication/ui/PairedActivity.java
+ com.example.user.bluetooth_communication.ui.PairedActivity
+ com.example.user.bluetooth_communication.ui.PairedActivity$1
+ com.example.user.bluetooth_communication.ui.PairedActivity$2
+ com.example.user.bluetooth_communication.ui.PairedActivity$3
+ com.example.user.bluetooth_communication.ui.PairedActivity$4
+ com.example.user.bluetooth_communication.ui.PairedActivity$5
+ com.example.user.bluetooth_communication.ui.PairedActivity$5$1
+ com.example.user.bluetooth_communication.ui.PairedActivity$6
+ com.example.user.bluetooth_communication.ui.PairedActivity$7
+ com.example.user.bluetooth_communication.ui.PairedActivity$ConnectedThread
+ com.example.user.bluetooth_communication.ui.PairedActivity$CreateConnectThread
+com/example/user/bluetooth_communication/remote/NetworkConnectionInterceptor.java
+ com.example.user.bluetooth_communication.remote.NetworkConnectionInterceptor
+ com.example.user.bluetooth_communication.remote.NetworkConnectionInterceptor$NoConnectivityException
+com/example/user/bluetooth_communication/databinding/ActivitySplashScreenBinding.java
+ com.example.user.bluetooth_communication.databinding.ActivitySplashScreenBinding
+com/example/user/bluetooth_communication/ui/LoginActivity.java
+ com.example.user.bluetooth_communication.ui.LoginActivity
+ com.example.user.bluetooth_communication.ui.LoginActivity$1
+com/example/user/bluetooth_communication/ui/GetAllUserAdapter.java
+ com.example.user.bluetooth_communication.ui.GetAllUserAdapter
+ com.example.user.bluetooth_communication.ui.GetAllUserAdapter$OnItemClickListener
+ com.example.user.bluetooth_communication.ui.GetAllUserAdapter$ViewHolder
+ com.example.user.bluetooth_communication.ui.GetAllUserAdapter$ViewHolder$1

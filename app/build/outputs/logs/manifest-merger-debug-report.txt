@@ -118,30 +118,30 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/andr
 		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:19:9-35
 	android:theme
 		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:23:9-40
-activity#com.example.user.bluetooth_communication.PairedActivity
+activity#com.example.user.bluetooth_communication.ui.PairedActivity
 ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:24:9-26:40
 	android:exported
 		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:25:13-43
-activity#com.example.user.bluetooth_communication.LoginActivity
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:25:13-46
+activity#com.example.user.bluetooth_communication.ui.LoginActivity
 ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:27:9-29:40
 	android:exported
 		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:28:13-42
-activity#com.example.user.bluetooth_communication.SelectDeviceActivity
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:28:13-45
+activity#com.example.user.bluetooth_communication.ui.SelectDeviceActivity
 ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:30:9-32:40
 	android:exported
 		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:31:13-49
-activity#com.example.user.bluetooth_communication.SplashScreenActivity
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:31:13-52
+activity#com.example.user.bluetooth_communication.ui.SplashScreenActivity
 ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:33:9-41:20
 	android:exported
 		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:35:13-36
 	android:name
-		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:34:13-49
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:34:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN
@@ -152,12 +152,12 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:39:17-77
 	android:name
 		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:39:27-74
-activity#com.example.user.bluetooth_communication.MainActivity
-ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:42:9-44:49
+activity#com.example.user.bluetooth_communication.ui.MainActivity
+ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:42:9-44:39
 	android:exported
 		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:44:13-37
 	android:name
-		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:43:13-41
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:43:13-44
 uses-sdk
 INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml
