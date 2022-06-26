@@ -1,50 +1,54 @@
 [
     {
-        "merged": "/Users/ademolababatunde/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_second.xml",
-        "source": "/Users/ademolababatunde/Ulock/app/src/main/res/layout/fragment_second.xml"
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/device_info_layout.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/device_info_layout.xml"
     },
     {
-        "merged": "/Users/ademolababatunde/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_home.xml",
-        "source": "/Users/ademolababatunde/Ulock/app/src/main/res/layout/activity_home.xml"
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_new_device_home.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/activity_new_device_home.xml"
     },
     {
-        "merged": "/Users/ademolababatunde/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_first.xml",
-        "source": "/Users/ademolababatunde/Ulock/app/src/main/res/layout/fragment_first.xml"
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/ademolababatunde/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
-        "source": "/Users/ademolababatunde/Ulock/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/add_user_layout.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/add_user_layout.xml"
     },
     {
-        "merged": "/Users/ademolababatunde/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_home.xml",
-        "source": "/Users/ademolababatunde/Ulock/app/src/main/res/layout/content_home.xml"
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_home.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/activity_home.xml"
     },
     {
-        "merged": "/Users/ademolababatunde/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/device_adapter_view.xml",
-        "source": "/Users/ademolababatunde/Ulock/app/src/main/res/layout/device_adapter_view.xml"
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_select_device.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/activity_select_device.xml"
     },
     {
-        "merged": "/Users/ademolababatunde/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_splash_screen.xml",
-        "source": "/Users/ademolababatunde/Ulock/app/src/main/res/layout/activity_splash_screen.xml"
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_home.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/content_home.xml"
     },
     {
-        "merged": "/Users/ademolababatunde/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_select_device.xml",
-        "source": "/Users/ademolababatunde/Ulock/app/src/main/res/layout/activity_select_device.xml"
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_new_device_home.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/content_new_device_home.xml"
     },
     {
-        "merged": "/Users/ademolababatunde/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/device_info_layout.xml",
-        "source": "/Users/ademolababatunde/Ulock/app/src/main/res/layout/device_info_layout.xml"
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_paired.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/activity_paired.xml"
     },
     {
-        "merged": "/Users/ademolababatunde/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/all_user_layout.xml",
-        "source": "/Users/ademolababatunde/Ulock/app/src/main/res/layout/all_user_layout.xml"
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/activity_login.xml"
     },
     {
-        "merged": "/Users/ademolababatunde/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
-        "source": "/Users/ademolababatunde/Ulock/app/src/main/res/layout/activity_login.xml"
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/device_adapter_view.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/device_adapter_view.xml"
     },
     {
-        "merged": "/Users/ademolababatunde/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_paired.xml",
-        "source": "/Users/ademolababatunde/Ulock/app/src/main/res/layout/activity_paired.xml"
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/all_user_layout.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/all_user_layout.xml"
+    },
+    {
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_splash_screen.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/activity_splash_screen.xml"
     }
 ]

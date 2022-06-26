@@ -111,7 +111,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         battery = findViewById(R.id.batteryLife);
         toolbar = findViewById(R.id.toolbar);
         mBluetoothConnection = new BluetoothConnectionService(MainActivity.this, handler);
-
         linearLayout = findViewById(R.id.dataLayout);
         sendOk = findViewById(R.id.sndCommand);
         sendOk.setOnClickListener(this);

@@ -4,6 +4,7 @@ package com.example.user.bluetooth_communication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
@@ -21,14 +22,18 @@ public final class ActivityHomeBinding implements ViewBinding {
   private final CoordinatorLayout rootView;
 
   @NonNull
+  public final Button btnOpen;
+
+  @NonNull
   public final FloatingActionButton fab;
 
   @NonNull
   public final Toolbar toolbar;
 
-  private ActivityHomeBinding(@NonNull CoordinatorLayout rootView,
+  private ActivityHomeBinding(@NonNull CoordinatorLayout rootView, @NonNull Button btnOpen,
       @NonNull FloatingActionButton fab, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
+    this.btnOpen = btnOpen;
     this.fab = fab;
     this.toolbar = toolbar;
   }
@@ -60,6 +65,12 @@ public final class ActivityHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnOpen;
+      Button btnOpen = ViewBindings.findChildViewById(rootView, id);
+      if (btnOpen == null) {
+        break missingId;
+      }
+
       id = R.id.fab;
       FloatingActionButton fab = ViewBindings.findChildViewById(rootView, id);
       if (fab == null) {
@@ -72,7 +83,7 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityHomeBinding((CoordinatorLayout) rootView, fab, toolbar);
+      return new ActivityHomeBinding((CoordinatorLayout) rootView, btnOpen, fab, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

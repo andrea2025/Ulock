@@ -4,6 +4,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -16,13 +18,15 @@ import com.example.user.bluetooth_communication.remote.Model.Response.UserInfo;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GetAllUserAdapter extends RecyclerView.Adapter<GetAllUserAdapter.ViewHolder> {
+public class GetAllUserAdapter extends RecyclerView.Adapter<GetAllUserAdapter.ViewHolder> implements Filterable {
     private List<UserInfo> mData;
     private OnItemClickListener listener;
+    public List<UserInfo> filterList = new ArrayList<>();
 
     public GetAllUserAdapter(List<UserInfo> mData, OnItemClickListener listener) {
         this.mData = mData;
         this.listener = listener;
+        this.filterList = mData;
     }
 
 
@@ -41,9 +45,49 @@ public class GetAllUserAdapter extends RecyclerView.Adapter<GetAllUserAdapter.Vi
 
     }
 
+
+    public Filter getFilter() {
+        return new Filter() {
+            @Override
+            protected FilterResults performFiltering(CharSequence charSequence) {
+                FilterResults results = new FilterResults();
+
+                if (charSequence != null && charSequence.length() > 0) {
+                    ArrayList<UserInfo> filters = new ArrayList<>();
+                    charSequence = charSequence.toString().toUpperCase();
+                    for (UserInfo memberItem : mData) {
+                        if (memberItem.getFirstName().toLowerCase()
+                                .contains(charSequence.toString().toLowerCase()) || memberItem.getLastName().toLowerCase().contains(charSequence.toString().toLowerCase())) {
+                            filters.add(memberItem);
+                        }
+                    }
+
+                    results.count = filters.size();
+                    results.values = filters;
+
+                } else {
+                    results.count = mData.size();
+                    results.values = mData;
+                }
+
+                return results;
+            }
+
+            @SuppressWarnings("unchecked")
+            @Override
+            protected void publishResults(CharSequence charSequence, FilterResults filterResults) {
+                filterList = (ArrayList<UserInfo>) filterResults.values;
+                notifyDataSetChanged();
+
+
+            }
+        };
+
+    }
+
     @Override
     public int getItemCount() {
-        return mData.size();
+        return filterList.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -81,6 +125,8 @@ public class GetAllUserAdapter extends RecyclerView.Adapter<GetAllUserAdapter.Vi
         }
 
     }
+
+
 
     public interface OnItemClickListener {
 

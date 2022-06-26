@@ -25,10 +25,14 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.user.bluetooth_communication.ui.HomeActivity"
+            android:name="com.example.user.bluetooth_communication.NewDeviceHomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_new_device_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.user.bluetooth_communication.ui.PairedHomeActivity"
             android:exported="false"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -53,6 +57,13 @@
         <activity
             android:name="com.example.user.bluetooth_communication.ui.MainActivity"
             android:exported="false" />
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
     </application>
 
 </manifest>

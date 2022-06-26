@@ -4,8 +4,11 @@ package com.example.user.bluetooth_communication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
@@ -20,12 +23,25 @@ public final class ContentHomeBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final CardView cardView;
+
+  @NonNull
   public final RecyclerView deleteLists;
 
-  private ContentHomeBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView deleteLists) {
+  @NonNull
+  public final EditText searchEdit;
+
+  @NonNull
+  public final TextView textVisible;
+
+  private ContentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardView,
+      @NonNull RecyclerView deleteLists, @NonNull EditText searchEdit,
+      @NonNull TextView textVisible) {
     this.rootView = rootView;
+    this.cardView = cardView;
     this.deleteLists = deleteLists;
+    this.searchEdit = searchEdit;
+    this.textVisible = textVisible;
   }
 
   @Override
@@ -55,13 +71,32 @@ public final class ContentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.cardView;
+      CardView cardView = ViewBindings.findChildViewById(rootView, id);
+      if (cardView == null) {
+        break missingId;
+      }
+
       id = R.id.deleteLists;
       RecyclerView deleteLists = ViewBindings.findChildViewById(rootView, id);
       if (deleteLists == null) {
         break missingId;
       }
 
-      return new ContentHomeBinding((ConstraintLayout) rootView, deleteLists);
+      id = R.id.searchEdit;
+      EditText searchEdit = ViewBindings.findChildViewById(rootView, id);
+      if (searchEdit == null) {
+        break missingId;
+      }
+
+      id = R.id.textVisible;
+      TextView textVisible = ViewBindings.findChildViewById(rootView, id);
+      if (textVisible == null) {
+        break missingId;
+      }
+
+      return new ContentHomeBinding((ConstraintLayout) rootView, cardView, deleteLists, searchEdit,
+          textVisible);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

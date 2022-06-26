@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ademolababatunde/Ulock/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml",
+            "outputFile": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/ademolababatunde/Ulock/app/src/main/res/values-w600dp/dimens.xml",
+                    "source": "/Users/andrea/Documents/Ulock/app/src/main/res/values-w600dp/dimens.xml",
                     "from": {
                         "startLines": "1,2",
                         "startColumns": "4,4",
