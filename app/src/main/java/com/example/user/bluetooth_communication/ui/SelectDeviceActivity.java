@@ -231,7 +231,7 @@ public class SelectDeviceActivity extends AppCompatActivity {
                         Log.d(TAG, "onItemClick: deviceName = " + deviceName);
                         Log.d(TAG, "onItemClick: deviceAddress = " + deviceAddress);
                         item.createBond();
-                        Intent intent = new Intent(getApplicationContext(), PairedHomeActivity.class);
+                        Intent intent = new Intent(getApplicationContext(), NewDeviceHomeActivity.class);
                         startActivity(intent);
 
                     }

@@ -1887,7 +1887,6 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
-id FirstFragment
 id META
 id NO_DEBUG
 id SHIFT
@@ -1895,7 +1894,6 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
-id SecondFragment
 id TOP_END
 id TOP_START
 id accelerate
@@ -1935,8 +1933,6 @@ id accessibility_custom_action_9
 id actionDown
 id actionDownUp
 id actionUp
-id action_FirstFragment_to_SecondFragment
-id action_SecondFragment_to_FirstFragment
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -2202,7 +2198,6 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id nameLayout
 id nav_controller_view_tag
-id nav_graph
 id nav_host_fragment_container
 id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
@@ -2574,7 +2569,6 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 mipmap ic_launcher
-navigation nav_graph
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -2618,9 +2612,6 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
-string first_fragment_label
-string hello_first_fragment
-string hello_second_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string invalid_password
@@ -2684,17 +2675,14 @@ string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
-string next
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
-string previous
 string prompt_email
 string prompt_password
 string search_menu_title
-string second_fragment_label
 string status_bar_notification_info_overflow
 string title_activity_hhhhh
 string title_activity_home

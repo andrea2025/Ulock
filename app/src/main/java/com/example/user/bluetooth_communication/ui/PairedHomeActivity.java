@@ -46,6 +46,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.UUID;
 
 import retrofit2.Call;
@@ -67,7 +68,7 @@ public class PairedHomeActivity extends AppCompatActivity {
     private String deviceName = null;
     private String deviceAddress;
     LayoutInflater layoutInflater;
-    AlertDialog.Builder alert;
+    AlertDialog alert;
     View inflator;
     private LinearLayout linearLayout;
     String mLastname;
@@ -97,7 +98,7 @@ public class PairedHomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 byte[] bytes;
-                String btnOpen = binding.btnOpen.getText().toString();
+                String btnOpen = binding.btnOpen.getText().toString().toUpperCase(Locale.ROOT);
                 bytes = btnOpen.getBytes();
                 connectedThread.write(bytes);
             }
@@ -145,31 +146,32 @@ public class PairedHomeActivity extends AppCompatActivity {
                             Log.i("nnnnkk", parts[0]);
                             switch (parts[0]) {
                                 case "place_finger":
-                                    Toast.makeText(getApplicationContext(), "Ask user to place finger", Toast.LENGTH_LONG).show();
+                                    Toast.makeText(getApplicationContext(), "Ask user to place finger", Toast.LENGTH_SHORT).show();
                                     break;
                                 case "MSG_OK":
-                                    Toast.makeText(getApplicationContext(), "MSG_OK",  Toast.LENGTH_LONG).show();
+                                    Toast.makeText(getApplicationContext(), "MSG_OK", Toast.LENGTH_SHORT).show();
                                     break;
                                 case "remove_finger":
-                                    Toast.makeText(getApplicationContext(), "Ask user to remove finger",  Toast.LENGTH_LONG).show();
+                                    Toast.makeText(getApplicationContext(), "Ask user to remove finger", Toast.LENGTH_SHORT).show();
                                     break;
                                 case "communication_error":
                                 case "imaging_error":
                                 case "unknown_error":
                                 case "memory_error":
                                 case "prints_did_not_match":
-                                    Toast.makeText(getApplicationContext(), "start process again",  Toast.LENGTH_LONG).show();
+                                    Toast.makeText(getApplicationContext(), "start process again",  Toast.LENGTH_SHORT).show();
                                     break;
                                 case "place_finger_again":
-                                    Toast.makeText(getApplicationContext(), "Ask user to place same finger again",  Toast.LENGTH_LONG).show();
+                                    Toast.makeText(getApplicationContext(), "Ask user to place same finger again",  Toast.LENGTH_SHORT).show();
                                     break;
                                 case "prints_saved_with_id":
-                                    alert.setOnDismissListener(DialogInterface::dismiss);
+                                    alert.dismiss();
                                     addUser(mFirstName, mLastname, parts[1], accessToken);
-                                    Toast.makeText(getApplicationContext(), "User saved succesfully", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(getApplicationContext(), "User saved successfully", Toast.LENGTH_SHORT).show();
+                                    mDeleteUser(accessToken);
                                     break;
                                 case "BATTERY":
-                                    Toast.makeText(getApplicationContext(), "Battery %",  Toast.LENGTH_LONG).show();
+                                    Toast.makeText(getApplicationContext(), "Battery %",  Toast.LENGTH_SHORT).show();
                                     break;
                                 case "SYNC_YES":
                                     Log.i("user", arduinoMsg);
@@ -196,8 +198,9 @@ public class PairedHomeActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int start, int i1, int i2) {
-                Log.i(TAG, "onTextChanged: hhhh");
-                mUserAdapter.getFilter().filter(charSequence);
+              //  Log.i(TAG, "onTextChanged: hhhh");
+                Log.i("jjj",charSequence.toString());
+                mUserAdapter.getFilter().filter(charSequence.toString());
                 if (mUserAdapter.getItemCount() == 0) {
                     mText.setVisibility(View.VISIBLE);
                 } else {
@@ -208,21 +211,24 @@ public class PairedHomeActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable editable) {
-                Log.i(TAG, "afterTextChanged: kkkk");
+                //Log.i(TAG, "afterTextChanged: kkkk");
             }
         });
 
         binding.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                byte[] bytes;
+                String btnAdd = "SYNC_?";
+                bytes = btnAdd.getBytes();
+                connectedThread.write(bytes);
                 layoutInflater = LayoutInflater.from(PairedHomeActivity.this);
                 inflator = layoutInflater.inflate(R.layout.add_user_layout, null);
-                alert = new AlertDialog.Builder(PairedHomeActivity.this);
+                alert = new AlertDialog.Builder(PairedHomeActivity.this).create();
 
                 alert.setTitle("Add User");
-                //alert.setMessage("Add A New User");
                 alert.setView(inflator);
-                alert.setCancelable(false);
+                alert.setCancelable(true);
 
                 final EditText firstName = (EditText) inflator.findViewById(R.id.firstName);
                 final EditText lastName = (EditText) inflator.findViewById(R.id.lastName);
@@ -243,26 +249,12 @@ public class PairedHomeActivity extends AppCompatActivity {
                         }
                     }
                 });
-
-//                alert.setPositiveButton("ok", new DialogInterface.OnClickListener() {
-//                    public void onClick(DialogInterface dialog, int whichButton)
-//                    {
-//                        String s1=et1.getText().toString();
-//                        String s2=et2.getText().toString();
-//                        //do operations using s1 and s2 here...
-//                    }
-//                });
-//
-//                alert.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-//                    public void onClick(DialogInterface dialog, int whichButton) {
-//                        dialog.cancel();
-//                    }
-//                });
-
                 alert.show();
             }
         });
     }
+
+
 
     private void mGetUser(String token) {
         mService.syncUsers(token).enqueue(new Callback<GetAllUser>() {
@@ -520,7 +512,7 @@ public class PairedHomeActivity extends AppCompatActivity {
                     Log.d(TAG, "InputStream: " + readMsg.obj);
                     Log.d(TAG, "InputStream: " + readMsg.getClass());
                 } catch (IOException e) {
-                    Log.e(TAG, "write: Error reading Input Stream. " + e.getMessage());
+                    Log.e(TAG, "write: Error reading Input Stream." + e.getMessage());
                     break;
                 }
             }

@@ -135,7 +135,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/andr
 		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:19:9-35
 	android:theme
 		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:23:9-40
-activity#com.example.user.bluetooth_communication.NewDeviceHomeActivity
+activity#com.example.user.bluetooth_communication.ui.NewDeviceHomeActivity
 ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:24:9-28:59
 	android:label
 		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:27:13-67
@@ -144,7 +144,7 @@ ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:24:9-2
 	android:theme
 		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:28:13-56
 	android:name
-		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:25:13-50
+		ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:25:13-53
 activity#com.example.user.bluetooth_communication.ui.PairedHomeActivity
 ADDED from /Users/andrea/Documents/Ulock/app/src/main/AndroidManifest.xml:29:9-33:59
 	android:label

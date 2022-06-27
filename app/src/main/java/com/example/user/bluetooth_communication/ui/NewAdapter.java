@@ -28,7 +28,7 @@ public class NewAdapter extends RecyclerView.Adapter<NewAdapter.ViewHolder> {
     @NonNull
     @Override
     public NewAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.device_adapter_view, viewGroup, false);
+        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.device_info_layout, viewGroup, false);
         return new NewAdapter.ViewHolder(view);
     }
 
@@ -49,8 +49,8 @@ public class NewAdapter extends RecyclerView.Adapter<NewAdapter.ViewHolder> {
 
         public ViewHolder(View itemView) {
             super(itemView);
-            this.mName = (TextView) itemView.findViewById(R.id.tvDeviceName);
-            this.mAddress = (TextView) itemView.findViewById(R.id.tvDeviceAddress);
+            this.mName = (TextView) itemView.findViewById(R.id.textViewDeviceName);
+            this.mAddress = (TextView) itemView.findViewById(R.id.textViewDeviceAddress);
 
         }
 

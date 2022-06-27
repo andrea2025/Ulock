@@ -40,8 +40,6 @@ public class GetAllUserAdapter extends RecyclerView.Adapter<GetAllUserAdapter.Vi
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
         viewHolder.bind(mData.get(i), listener);
-        // viewHolder.mName.setText(mData.get(i).getFirstName());
-        //viewHolder.mAddress.setText(mData.get(i));
 
     }
 
@@ -54,10 +52,10 @@ public class GetAllUserAdapter extends RecyclerView.Adapter<GetAllUserAdapter.Vi
 
                 if (charSequence != null && charSequence.length() > 0) {
                     ArrayList<UserInfo> filters = new ArrayList<>();
-                    charSequence = charSequence.toString().toUpperCase();
+                    charSequence = charSequence.toString().toLowerCase();
                     for (UserInfo memberItem : mData) {
                         if (memberItem.getFirstName().toLowerCase()
-                                .contains(charSequence.toString().toLowerCase()) || memberItem.getLastName().toLowerCase().contains(charSequence.toString().toLowerCase())) {
+                                .contains(charSequence.toString().toLowerCase())) {
                             filters.add(memberItem);
                         }
                     }
