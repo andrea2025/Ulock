@@ -72,6 +72,10 @@
         "source": "/Users/andrea/Documents/Ulock/app/src/main/res/drawable/bg.xml"
     },
     {
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/merged_res/debug/layout_message.xml.flat",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/message.xml"
+    },
+    {
         "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_search.png.flat",
         "source": "/Users/andrea/Documents/Ulock/app/build/generated/res/pngs/debug/drawable-mdpi/ic_search.png"
     },

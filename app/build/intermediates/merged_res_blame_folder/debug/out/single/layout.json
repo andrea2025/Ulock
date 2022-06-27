@@ -28,6 +28,10 @@
         "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/content_home.xml"
     },
     {
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/message.xml",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/message.xml"
+    },
+    {
         "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_new_device_home.xml",
         "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/content_new_device_home.xml"
     },

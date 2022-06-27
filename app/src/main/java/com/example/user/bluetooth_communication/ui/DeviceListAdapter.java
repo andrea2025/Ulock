@@ -74,34 +74,6 @@ public class DeviceListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
 
         }
 
-
-//        public void bind(Object o, OnItemClickListener mClickListener) {
-//            textName.setText();
-//            textAddress.setText(deviceInfoModel.getDeviceHardwareAddress());
-//
-//            // When a device is selected
-//            linearLayout.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View view) {
-//                    mClickListener.onItemClick(o);
-////                Intent intent = new Intent(context,MainActivity.class);
-////                // Send device details to the MainActivity
-////                intent.putExtra("deviceName", deviceInfoModel.getDeviceName());
-////                intent.putExtra("deviceAddress",deviceInfoModel.getDeviceHardwareAddress());
-////                // Call MainActivity
-////                context.startActivity(intent);
-//
-//                }
-//            });
-//            if (deviceList.size() == 0){
-//                linearLayout.setVisibility(View.GONE);
-//                textNoDevice.setVisibility(View.VISIBLE);
-//            }else {
-//                linearLayout.setVisibility(View.VISIBLE);
-//                textNoDevice.setVisibility(View.GONE);
-//            }
-//        }
-
     }
     @Override
     public int getItemCount() {

@@ -39,7 +39,7 @@ public class GetAllUserAdapter extends RecyclerView.Adapter<GetAllUserAdapter.Vi
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
-        viewHolder.bind(mData.get(i), listener);
+        viewHolder.bind(filterList.get(i), listener);
 
     }
 
@@ -49,10 +49,10 @@ public class GetAllUserAdapter extends RecyclerView.Adapter<GetAllUserAdapter.Vi
             @Override
             protected FilterResults performFiltering(CharSequence charSequence) {
                 FilterResults results = new FilterResults();
-
-                if (charSequence != null && charSequence.length() > 0) {
+                String charString = charSequence.toString();
+                if (!charString.isEmpty()) {
                     ArrayList<UserInfo> filters = new ArrayList<>();
-                    charSequence = charSequence.toString().toLowerCase();
+                    charString = charSequence.toString().toLowerCase().trim();
                     for (UserInfo memberItem : mData) {
                         if (memberItem.getFirstName().toLowerCase()
                                 .contains(charSequence.toString().toLowerCase())) {
@@ -82,10 +82,38 @@ public class GetAllUserAdapter extends RecyclerView.Adapter<GetAllUserAdapter.Vi
         };
 
     }
+//
+//    private void filter(String text) {
+//        //new array list that will hold the filtered data
+//        ArrayList<UserInfo> filterdNames = new ArrayList<>();
+//
+//        //looping through existing elements
+//        for (UserInfo memberItem : mData) {
+//            //if the existing elements contains the search input
+//            if (memberItem.getFirstName().toLowerCase().contains(text.toLowerCase())) {
+//                //adding the element to filtered list
+//                filterdNames.add(memberItem);
+//            }
+//        }
+//
+//        //calling a method of the adapter class and passing the
+//        //filtered list;
+//        adapter.filterList(filterdNames);
+//    }
+//
+//
+//    public void filterList(ArrayList<UserInfo> filterdNames) {
+//        this.mData = filterdNames;
+//        notifyDataSetChanged();
+//    }
 
     @Override
     public int getItemCount() {
-        return filterList.size();
+        if (filterList.size() == 0) {
+            return 0;
+        } else {
+            return filterList.size();
+        }
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {

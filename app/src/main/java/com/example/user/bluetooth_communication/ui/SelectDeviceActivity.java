@@ -20,6 +20,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.user.bluetooth_communication.R;
+import com.example.user.bluetooth_communication.ui.Utils.CustomToast;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
@@ -40,6 +41,7 @@ public class SelectDeviceActivity extends AppCompatActivity {
     DeviceListAdapter deviceListAdapter;
     ImageView imageView;
     LinearLayout textNewDevice;
+    CustomToast customToast;
     private static final UUID MY_UUID_INSECURE =
             UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
 
@@ -70,6 +72,7 @@ public class SelectDeviceActivity extends AppCompatActivity {
         buttonConnect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 textNewDevice.setVisibility(View.VISIBLE);
                 Log.d(TAG, "btnDiscover: Looking for unpaired devices.");
                 if (mBluetoothAdapter.isDiscovering()) {

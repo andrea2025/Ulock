@@ -1131,6 +1131,7 @@ int color background_floating_material_light 0x7f05001e
 int color background_material_dark 0x7f05001f
 int color background_material_light 0x7f050020
 int color black 0x7f050021
+int color blue_shade 0x7f0500d8
 int color bright_foreground_disabled_material_dark 0x7f050022
 int color bright_foreground_disabled_material_light 0x7f050023
 int color bright_foreground_inverse_material_dark 0x7f050024
@@ -2123,6 +2124,7 @@ int id jumpToStart 0x7f0800ee
 int id labeled 0x7f0800ef
 int id lastName 0x7f0800f0
 int id layout 0x7f0800f1
+int id layout_root 0x7f080209
 int id left 0x7f0800f2
 int id leftToRight 0x7f0800f3
 int id legacy 0x7f0800f4
@@ -2365,6 +2367,7 @@ int id time 0x7f0801e0
 int id title 0x7f0801e1
 int id titleDividerNoCustom 0x7f0801e2
 int id title_template 0x7f0801e3
+int id toastMsg 0x7f08020a
 int id toggle 0x7f0801e4
 int id toolbar 0x7f0801e5
 int id top 0x7f0801e6
@@ -2513,6 +2516,7 @@ int layout material_time_input 0x7f0b0043
 int layout material_timepicker 0x7f0b0044
 int layout material_timepicker_dialog 0x7f0b0045
 int layout material_timepicker_textinput_display 0x7f0b0046
+int layout message 0x7f0b007d
 int layout mtrl_alert_dialog 0x7f0b0047
 int layout mtrl_alert_dialog_actions 0x7f0b0048
 int layout mtrl_alert_dialog_title 0x7f0b0049
