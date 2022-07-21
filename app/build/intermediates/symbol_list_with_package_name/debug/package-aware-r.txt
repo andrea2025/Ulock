@@ -1883,6 +1883,7 @@ drawable notify_panel_notification_icon_bg
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable ulock
 id ALT
 id BOTTOM_END
 id BOTTOM_START

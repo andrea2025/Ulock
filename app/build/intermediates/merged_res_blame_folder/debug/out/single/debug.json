@@ -8,20 +8,20 @@
         "source": "/Users/andrea/Documents/Ulock/app/src/main/res/drawable/ic_baseline_cancel_24.xml"
     },
     {
-        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_search.png.flat",
-        "source": "/Users/andrea/Documents/Ulock/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_search.png"
-    },
-    {
         "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/merged_res/debug/layout_activity_select_device.xml.flat",
         "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/activity_select_device.xml"
     },
     {
-        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/merged_res/debug/layout_all_user_layout.xml.flat",
-        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/all_user_layout.xml"
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_search.png.flat",
+        "source": "/Users/andrea/Documents/Ulock/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_search.png"
     },
     {
         "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/andrea/Documents/Ulock/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/merged_res/debug/layout_all_user_layout.xml.flat",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/all_user_layout.xml"
     },
     {
         "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/merged_res/debug/layout_activity_splash_screen.xml.flat",
@@ -106,6 +106,10 @@
     {
         "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/merged_res/debug/layout_content_new_device_home.xml.flat",
         "source": "/Users/andrea/Documents/Ulock/app/src/main/res/layout/content_new_device_home.xml"
+    },
+    {
+        "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/merged_res/debug/drawable_ulock.jpeg.flat",
+        "source": "/Users/andrea/Documents/Ulock/app/src/main/res/drawable/ulock.jpeg"
     },
     {
         "merged": "/Users/andrea/Documents/Ulock/app/build/intermediates/merged_res/debug/layout_device_info_layout.xml.flat",
