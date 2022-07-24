@@ -7,6 +7,7 @@ import com.example.user.bluetooth_communication.remote.Model.Request.LoginReques
 import com.example.user.bluetooth_communication.remote.Model.Response.AddUserRes;
 import com.example.user.bluetooth_communication.remote.Model.Response.GetAllUser;
 import com.example.user.bluetooth_communication.remote.Model.Response.LoginResponse;
+import com.example.user.bluetooth_communication.remote.Model.Response.NextIdResponse;
 
 import retrofit2.Call;
 import retrofit2.http.Body;
@@ -30,4 +31,7 @@ public interface UserService {
 
     @POST("add-user")
     Call<AddUserRes> addUser(@Body AdduserReq.Request adduserReq, @Header("Authorization") String Token);
+
+    @GET("next-id-on-device")
+    Call<NextIdResponse> nextId(@Header("Authorization") String Token);
 }

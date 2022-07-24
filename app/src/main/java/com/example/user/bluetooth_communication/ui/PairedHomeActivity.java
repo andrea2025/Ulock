@@ -36,6 +36,7 @@ import com.example.user.bluetooth_communication.remote.AppUtils;
 import com.example.user.bluetooth_communication.remote.Model.Request.AdduserReq;
 import com.example.user.bluetooth_communication.remote.Model.Response.AddUserRes;
 import com.example.user.bluetooth_communication.remote.Model.Response.GetAllUser;
+import com.example.user.bluetooth_communication.remote.Model.Response.NextIdResponse;
 import com.example.user.bluetooth_communication.remote.Model.Response.UserInfo;
 import com.example.user.bluetooth_communication.remote.SharedPref;
 import com.example.user.bluetooth_communication.remote.UserService;
@@ -79,6 +80,7 @@ public class PairedHomeActivity extends AppCompatActivity {
     private ActivityHomeBinding binding;
     EditText searchEdit;
     CardView mCardView;
+    String nextId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -175,7 +177,7 @@ public class PairedHomeActivity extends AppCompatActivity {
                                     break;
                                 case "SYNC_YES":
                                     Log.i("user", arduinoMsg);
-                                    mGetUser(accessToken);
+                                   // mGetUser(accessToken);
                                     break;
                                 case "DELETE":
                                     mUserAdapter.removeItem(parts[1]);
@@ -218,10 +220,11 @@ public class PairedHomeActivity extends AppCompatActivity {
         binding.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                byte[] bytes;
-                String btnAdd = "SYNC_?";
-                bytes = btnAdd.getBytes();
-                connectedThread.write(bytes);
+                getNextId(accessToken);
+//                byte[] bytes;
+//                String btnAdd = "SYNC_?";
+//                bytes = btnAdd.getBytes();
+//                connectedThread.write(bytes);
                 layoutInflater = LayoutInflater.from(PairedHomeActivity.this);
                 inflator = layoutInflater.inflate(R.layout.add_user_layout, null);
                 alert = new AlertDialog.Builder(PairedHomeActivity.this).create();
@@ -243,7 +246,8 @@ public class PairedHomeActivity extends AppCompatActivity {
                             mLastname = lastName.getText().toString();
                             Log.i("hhhhh", mFirstName + mLastname);
                             byte[] bytes;
-                            String btnAdd = "ADD";
+                            String btnAdd = "ADD_"+nextId;
+                            Log.i("jjfjjf",btnAdd);
                             bytes = btnAdd.getBytes();
                             connectedThread.write(bytes);
                         }
@@ -364,6 +368,47 @@ public class PairedHomeActivity extends AppCompatActivity {
             @Override
             public void onFailure(Call<AddUserRes> call, Throwable t) {
                 // mProgressDialog.dismiss();
+                Log.i("FAILURE MESSAGE", "Login failed");
+                if (t != null) {
+                    //getNavigator().failed(t);
+
+                }
+            }
+        });
+    }
+
+    private void getNextId(String token) {
+        mService.nextId(token).enqueue(new Callback<NextIdResponse>() {
+            @Override
+            public void onResponse(Call<NextIdResponse> call, Response<NextIdResponse> response) {
+                // mProgressDialog.dismiss();
+                if (response.isSuccessful()) {
+                    NextIdResponse resp = response.body();
+                    String id = response.body().getNextId().getNextId();
+                    Log.i(TAG, id);
+                    if (id.isEmpty()) {
+                        Log.i(TAG, "no id found");
+                    } else {
+                        nextId = id;
+                        Log.i("jjj",id);
+                       // byte[] bytes;
+//                        String sendIdOnDevice = id;
+//                        bytes = sendIdOnDevice.getBytes();
+//                        connectedThread.write(bytes);
+                    }
+
+                    Log.i("success", "onResponse: " + resp);
+                    //Log.i("success", user);
+
+                } else {
+                    Log.i("error", "onResponse: not successful");
+                }
+
+            }
+
+            @Override
+            public void onFailure(Call<NextIdResponse> call, Throwable t) {
+                //mProgressDialog.dismiss();
                 Log.i("FAILURE MESSAGE", "Login failed");
                 if (t != null) {
                     //getNavigator().failed(t);

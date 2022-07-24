@@ -30,6 +30,7 @@ import com.example.user.bluetooth_communication.remote.AppUtils;
 import com.example.user.bluetooth_communication.remote.Model.Request.AdduserReq;
 import com.example.user.bluetooth_communication.remote.Model.Response.AddUserRes;
 import com.example.user.bluetooth_communication.remote.Model.Response.GetAllUser;
+import com.example.user.bluetooth_communication.remote.Model.Response.NextIdResponse;
 import com.example.user.bluetooth_communication.remote.Model.Response.UserInfo;
 import com.example.user.bluetooth_communication.remote.SharedPref;
 import com.example.user.bluetooth_communication.remote.UserService;
@@ -101,9 +102,10 @@ public class PairedActivity extends AppCompatActivity implements View.OnClickLis
                 byte[] bytes;
                 addBtn.setVisibility(View.GONE);
                 mRelativeLayout.setVisibility(View.VISIBLE);
-                String btnAdd = "SYNC_?";
-                bytes = btnAdd.getBytes();
-                connectedThread.write(bytes);
+                getNextId(accessToken);
+//                String btnAdd = "SYNC_?";
+//                bytes = btnAdd.getBytes();
+//                connectedThread.write(bytes);
                // mGetUser(accessToken);
             }
         });
@@ -193,8 +195,8 @@ public class PairedActivity extends AppCompatActivity implements View.OnClickLis
                                     break;
                                 case "SYNC_YES":
                                     Log.i("user", arduinoMsg);
-                                    mGetUser(accessToken);
-                                    Toast.makeText(getApplicationContext(), "User sync", Toast.LENGTH_SHORT).show();
+//                                    mGetUser(accessToken);
+//                                    Toast.makeText(getApplicationContext(), "User sync", Toast.LENGTH_SHORT).show();
                                     break;
                                 case "DELETE":
                                     mUserAdapter.removeItem(parts[1]);
@@ -250,6 +252,46 @@ public class PairedActivity extends AppCompatActivity implements View.OnClickLis
             }
         });
     }
+
+    private void getNextId(String token) {
+        mService.nextId(token).enqueue(new Callback<NextIdResponse>() {
+            @Override
+            public void onResponse(Call<NextIdResponse> call, Response<NextIdResponse> response) {
+                // mProgressDialog.dismiss();
+                if (response.isSuccessful()) {
+                    NextIdResponse resp = response.body();
+                    String id = response.body().getNextId().getNextId();
+                    Log.i(TAG, id);
+                    if (id.isEmpty()) {
+                        Log.i(TAG, "no id found");
+                    } else {
+                        byte[] bytes;
+                        String sendIdOnDevice = id;
+                        bytes = sendIdOnDevice.getBytes();
+                        connectedThread.write(bytes);
+                    }
+
+                    Log.i("success", "onResponse: " + resp);
+                    //Log.i("success", user);
+
+                } else {
+                    Log.i("error", "onResponse: not successful");
+                }
+
+            }
+
+            @Override
+            public void onFailure(Call<NextIdResponse> call, Throwable t) {
+                //mProgressDialog.dismiss();
+                Log.i("FAILURE MESSAGE", "Login failed");
+                if (t != null) {
+                    //getNavigator().failed(t);
+
+                }
+            }
+        });
+    }
+
 
     private void mDeleteUser(String token) {
         mProgressDialog = ProgressDialog.show(this, "Getting all users"
