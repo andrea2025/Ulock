@@ -93,6 +93,7 @@ public class PairedHomeActivity extends AppCompatActivity {
         userList = new ArrayList<>();
         userRecyclerView = findViewById(R.id.deleteLists);
         userRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        userRecyclerView.setHasFixedSize(true);
         searchEdit = findViewById(R.id.searchEdit);
         mCardView = findViewById(R.id.cardView);
         mText = findViewById(R.id.textVisible);

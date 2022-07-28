@@ -32,9 +32,6 @@
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.PairedActivity"
-            android:exported="false" />
-        <activity
             android:name=".ui.LoginActivity"
             android:exported="false" />
         <activity
@@ -49,9 +46,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ui.MainActivity"
-            android:exported="false" />
     </application>
 
 </manifest>

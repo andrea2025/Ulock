@@ -95,7 +95,8 @@ public class NewDeviceHomeActivity extends AppCompatActivity {
         //  mTextView = findViewById(R.id.text_name);
         userRecyclerView = findViewById(R.id.deleteList);
         userRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-        mText = findViewById(R.id.text_change);
+        userRecyclerView.setHasFixedSize(true);
+       // mText = findViewById(R.id.textVisible);
         mBluetoothConnection = new BluetoothConnectionService(NewDeviceHomeActivity.this, handler);
 
         //Broadcasts when bond state changes (ie:pairing)
